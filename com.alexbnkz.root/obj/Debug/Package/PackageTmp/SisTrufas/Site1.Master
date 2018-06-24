@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="com.alexbnkz.root.SisTrufas.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="user-scalable=no,initial-scale = 1.0,maximum-scale = 1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/topcoat-desktop-dark.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/brackets.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="dark" style="background: #4A4D4E;">
+<form id="form1" runat="server">
+    <div id="wrapper">
+    <% if ("" + Session["logado"] == "ON")
+       { %>
+        <div class="max-width">
+            <div id="sideNav">
+              <nav class="site">
+                <ul>
+                    <li><asp:LinkButton runat="server" ID="Home" OnClick="Home_Click">Home</asp:LinkButton></li>
+
+                    <% if ("" + Session["Privilegio"] == "A") { %>
+                    <li><asp:LinkButton runat="server" ID="MinhasSolicitacoes" OnClick="MinhasSolicitacoes_Click">Minhas Solicitações</asp:LinkButton></li>
+
+                    <li style="border-bottom: none;"><asp:LinkButton runat="server" ID="AdmPainel" OnClick="AdmPainel_Click">Painel Administrativo</asp:LinkButton>
+                      <ul class="subUl">
+                        <li><asp:LinkButton runat="server" ID="AdmSolic" OnClick="AdmSolic_Click">Solicitações</asp:LinkButton></li>
+                      </ul>
+                    </li>
+
+
+                    <% } if ("" + Session["WhatsApp"] == "21995891097" && false) { %>
+
+
+                    <li style="border-bottom: none;"><asp:LinkButton runat="server" ID="Adm" OnClick="Adm_Click">Administração</asp:LinkButton>
+                      <ul class="subUl">
+                        <li><asp:LinkButton runat="server" ID="Adm_Promo" OnClick="Adm_Click">Promoções</asp:LinkButton></li>
+                        <li><asp:LinkButton runat="server" ID="Adm_Graph" OnClick="Adm_Click">Gráficos</asp:LinkButton></li>
+                        <li><asp:LinkButton runat="server" ID="AdmCli" OnClick="AdmCli_Click">Clientes</asp:LinkButton></li>
+                        <li><asp:LinkButton runat="server" ID="Adm_Vende" OnClick="Adm_Click">Vendedores</asp:LinkButton></li>
+                        <li><asp:LinkButton runat="server" ID="Adm_Trufa" OnClick="Adm_Click">Trufas</asp:LinkButton></li>
+                      </ul>
+                    </li>
+                    
+                    <li><asp:LinkButton runat="server" ID="Conta" OnClick="Conta_Click">Meu cadastro</asp:LinkButton></li>
+                    <% } %>
+                    <li><asp:LinkButton runat="server" ID="Ajuda" OnClick="Ajuda_Click">Ajuda</asp:LinkButton></li>
+                    <li><asp:LinkButton runat="server" ID="LogOut" OnClick="LogOut_Click">Sair</asp:LinkButton></li>
+                </ul>
+              </nav>
+            </div>
+        </div>
+    <% } %>
+        <div id="site">
+            <header id="main-header">
+              <div class="max-width" style="margin-top: 10px;">
+                <hgroup>
+                  <h1>Zélia Trufas</h1>
+                  <p>Delicious melting in your mouth</p>
+                </hgroup>
+    <% if ("" + Session["logado"] == "ON")
+       { %>
+                <a id="slide-menu-button" class="topcoat-icon-button--large--quiet" style="margin-top: 5px; padding: 5px;">
+                <span class="topcoat-icon--large topcoat-icon--menu-stack" style="margin: 5px;"></span></a>
+    <% } %>
+              </div>
+            </header>
+            <div id="errOUT" runat="server" onclick="displayDivNone(this)" style="display: none; font-size: 10px; text-align: center; padding: 8px; cursor: pointer; background: #F66; "></div>
+            <div id="msgOUT" runat="server" onclick="displayDivNone(this)" style="display: none; font-size: 10px; text-align: center; padding: 8px; cursor: pointer; background: #5C9BC4;"></div>
+            <section>
+                <asp:ContentPlaceHolder ID="content" runat="server"></asp:ContentPlaceHolder>
+            </section>
+            <footer>
+                <div id="main-foo">
+                    <div>
+                        <div id="facebook" title="Página no facebook"><a href="http://facebook.com/zelia.trufas"></a></div>
+                        <div id="alexbnkz" title="Desenvolvedor"><a href="http://alexbnkz.com"></a></div>
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+       
+    </div>
+</form>
+<script type="text/javascript" src="js/jquery-1.4.1.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/rainbow-custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

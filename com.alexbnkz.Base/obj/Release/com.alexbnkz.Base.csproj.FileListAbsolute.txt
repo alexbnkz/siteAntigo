@@ -1,0 +1,4 @@
+D:\Android\com.alexbnkz\com.alexbnkz.Base\bin\Release\com.alexbnkz.Base.dll
+D:\Android\com.alexbnkz\com.alexbnkz.Base\bin\Release\com.alexbnkz.Base.pdb
+D:\Android\com.alexbnkz\com.alexbnkz.Base\obj\Release\com.alexbnkz.Base.dll
+D:\Android\com.alexbnkz\com.alexbnkz.Base\obj\Release\com.alexbnkz.Base.pdb

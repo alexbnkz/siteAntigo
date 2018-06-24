@@ -1,0 +1,8 @@
+C:\Android\com.alexbnkz\com.alexbnkz.Base\bin\Debug\com.alexbnkz.Base.dll
+C:\Android\com.alexbnkz\com.alexbnkz.Base\bin\Debug\com.alexbnkz.Base.pdb
+C:\Android\com.alexbnkz\com.alexbnkz.Base\obj\Debug\com.alexbnkz.Base.dll
+C:\Android\com.alexbnkz\com.alexbnkz.Base\obj\Debug\com.alexbnkz.Base.pdb
+D:\Android\com.alexbnkz\com.alexbnkz.Base\bin\Debug\com.alexbnkz.Base.dll
+D:\Android\com.alexbnkz\com.alexbnkz.Base\bin\Debug\com.alexbnkz.Base.pdb
+D:\Android\com.alexbnkz\com.alexbnkz.Base\obj\Debug\com.alexbnkz.Base.dll
+D:\Android\com.alexbnkz\com.alexbnkz.Base\obj\Debug\com.alexbnkz.Base.pdb

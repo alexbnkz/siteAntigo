@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D057A36-F7C4-4573-92B4-BB3005E8DC98}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.alexbnkz.root</RootNamespace>
+    <AssemblyName>com.alexbnkz.root</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contatos.aspx" />
+    <Content Include="CurriculumVitae.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\ie10-viewport-bug-workaround.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="Curriculum.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="EnglishInCourse\Default.aspx" />
+    <Content Include="EnglishInCourse\SplitWord.aspx" />
+    <Content Include="img\Alex Benincasa.jpg" />
+    <Content Include="img\Alex Benincasa2.jpg" />
+    <Content Include="img\CurriculumVitaeLinhaTempo.jpg" />
+    <Content Include="img\playStoreZeliaTrufas.png" />
+    <Content Include="img\snc.jpg" />
+    <Content Include="img\tccGelb2014.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\docs.js" />
+    <Content Include="js\ie10-viewport-bug-workaround.js" />
+    <Content Include="js\jquery-1.11.3.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="Portfolio.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="SisTrufas\AdmClientes.aspx" />
+    <Content Include="SisTrufas\AdmPainel.aspx" />
+    <Content Include="SisTrufas\AdmSolic.aspx" />
+    <Content Include="SisTrufas\Ajuda.aspx" />
+    <Content Include="SisTrufas\css\brackets.css" />
+    <Content Include="SisTrufas\css\main.css" />
+    <Content Include="SisTrufas\css\theme.css" />
+    <Content Include="SisTrufas\css\topcoat-desktop-dark.css" />
+    <Content Include="SisTrufas\css\topcoat-desktop-dark.min.css" />
+    <Content Include="SisTrufas\Default.aspx" />
+    <Content Include="SisTrufas\favicon.ico" />
+    <Content Include="SisTrufas\Finalizar.aspx" />
+    <Content Include="SisTrufas\fonts\stylesheet.css" />
+    <Content Include="SisTrufas\img\01brigadeiro.jpg" />
+    <Content Include="SisTrufas\img\02beijinho.jpg" />
+    <Content Include="SisTrufas\img\03doisamores.jpg" />
+    <Content Include="SisTrufas\img\04morango.jpg" />
+    <Content Include="SisTrufas\img\05maracuja.jpg" />
+    <Content Include="SisTrufas\img\06limao.jpg" />
+    <Content Include="SisTrufas\img\07docedeleite.jpg" />
+    <Content Include="SisTrufas\img\08docedeleitecomameixa.jpg" />
+    <Content Include="SisTrufas\img\09cereja.jpg" />
+    <Content Include="SisTrufas\img\10abacaxi.jpg" />
+    <Content Include="SisTrufas\img\11amendoim.jpg" />
+    <Content Include="SisTrufas\img\12disqueticomchocolatebranco.jpg" />
+    <Content Include="SisTrufas\img\13disqueticomchocolatepreto.jpg" />
+    <Content Include="SisTrufas\img\14passasaorum.jpg" />
+    <Content Include="SisTrufas\img\alexbnkz.png" />
+    <Content Include="SisTrufas\img\faceico.png" />
+    <Content Include="SisTrufas\ItemSolicitacao.aspx" />
+    <Content Include="SisTrufas\js\jquery-1.4.1.js" />
+    <Content Include="SisTrufas\js\jquery-1.4.1.min.js" />
+    <Content Include="SisTrufas\js\jquery.mask.min.js" />
+    <Content Include="SisTrufas\js\main.js" />
+    <Content Include="SisTrufas\js\rainbow-custom.min.js" />
+    <Content Include="SisTrufas\Login.aspx" />
+    <Content Include="SisTrufas\MinhasSolicitacoes.aspx" />
+    <Content Include="SisTrufas\Pagamento.aspx" />
+    <Content Include="SisTrufas\PagSeguro.aspx" />
+    <Content Include="SisTrufas\Register.aspx" />
+    <Content Include="SisTrufas\RegisterSuccess.aspx" />
+    <Content Include="SisTrufas\Sobre.aspx" />
+    <Content Include="SisTrufas\Solicitacoes.aspx" />
+    <Content Include="SisTrufas\wsTrufas.asmx" />
+    <Content Include="TrackLoWay\Default.aspx" />
+    <Content Include="TrackLoWay\Track.asmx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contatos.aspx.cs">
+      <DependentUpon>Contatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contatos.aspx.designer.cs">
+      <DependentUpon>Contatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CurriculumVitae.aspx.cs">
+      <DependentUpon>CurriculumVitae.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CurriculumVitae.aspx.designer.cs">
+      <DependentUpon>CurriculumVitae.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculum.aspx.cs">
+      <DependentUpon>Curriculum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curriculum.aspx.designer.cs">
+      <DependentUpon>Curriculum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishInCourse\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishInCourse\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishInCourse\SplitWord.aspx.cs">
+      <DependentUpon>SplitWord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnglishInCourse\SplitWord.aspx.designer.cs">
+      <DependentUpon>SplitWord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio.aspx.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio.aspx.designer.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SisTrufas\AdmClientes.aspx.cs">
+      <DependentUpon>AdmClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\AdmClientes.aspx.designer.cs">
+      <DependentUpon>AdmClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\AdmPainel.aspx.cs">
+      <DependentUpon>AdmPainel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\AdmPainel.aspx.designer.cs">
+      <DependentUpon>AdmPainel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\AdmSolic.aspx.cs">
+      <DependentUpon>AdmSolic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\AdmSolic.aspx.designer.cs">
+      <DependentUpon>AdmSolic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Ajuda.aspx.cs">
+      <DependentUpon>Ajuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Ajuda.aspx.designer.cs">
+      <DependentUpon>Ajuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Finalizar.aspx.cs">
+      <DependentUpon>Finalizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Finalizar.aspx.designer.cs">
+      <DependentUpon>Finalizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\ItemSolicitacao.aspx.cs">
+      <DependentUpon>ItemSolicitacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\ItemSolicitacao.aspx.designer.cs">
+      <DependentUpon>ItemSolicitacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\MinhasSolicitacoes.aspx.cs">
+      <DependentUpon>MinhasSolicitacoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\MinhasSolicitacoes.aspx.designer.cs">
+      <DependentUpon>MinhasSolicitacoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Pagamento.aspx.cs">
+      <DependentUpon>Pagamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Pagamento.aspx.designer.cs">
+      <DependentUpon>Pagamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\PagSeguro.aspx.cs">
+      <DependentUpon>PagSeguro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\PagSeguro.aspx.designer.cs">
+      <DependentUpon>PagSeguro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\RegisterSuccess.aspx.cs">
+      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\RegisterSuccess.aspx.designer.cs">
+      <DependentUpon>RegisterSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Sobre.aspx.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Sobre.aspx.designer.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\Solicitacoes.aspx.cs">
+      <DependentUpon>Solicitacoes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisTrufas\Solicitacoes.aspx.designer.cs">
+      <DependentUpon>Solicitacoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SisTrufas\wsTrufas.asmx.cs">
+      <DependentUpon>wsTrufas.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TrackLoWay\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrackLoWay\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrackLoWay\Track.asmx.cs">
+      <DependentUpon>Track.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.alexbnkz.Base\com.alexbnkz.Base.csproj">
+      <Project>{C5C5E35F-51CC-4E0D-832D-535CD6BDD918}</Project>
+      <Name>com.alexbnkz.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="css\bootstrap-theme.css.map" />
+    <None Include="css\bootstrap-theme.min.css.map" />
+    <None Include="css\bootstrap.css.map" />
+    <None Include="css\bootstrap.min.css.map" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.svg" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="SisTrufas\fonts\sourcecodepro-regular-webfont.eot" />
+    <None Include="SisTrufas\fonts\sourcecodepro-regular-webfont.svg" />
+    <None Include="SisTrufas\fonts\sourcecodepro-regular-webfont.ttf" />
+    <None Include="SisTrufas\fonts\sourcecodepro-regular-webfont.woff" />
+    <None Include="SisTrufas\fonts\sourcesanspro-light-webfont.eot" />
+    <None Include="SisTrufas\fonts\sourcesanspro-light-webfont.svg" />
+    <None Include="SisTrufas\fonts\sourcesanspro-light-webfont.ttf" />
+    <None Include="SisTrufas\fonts\sourcesanspro-light-webfont.woff" />
+    <None Include="SisTrufas\fonts\sourcesanspro-regular-webfont.eot" />
+    <None Include="SisTrufas\fonts\sourcesanspro-regular-webfont.svg" />
+    <None Include="SisTrufas\fonts\sourcesanspro-regular-webfont.ttf" />
+    <None Include="SisTrufas\fonts\sourcesanspro-regular-webfont.woff" />
+    <None Include="SisTrufas\fonts\SourceSansPro-Regular.otf" />
+    <None Include="SisTrufas\fonts\sourcesanspro-semibold-webfont.eot" />
+    <None Include="SisTrufas\fonts\sourcesanspro-semibold-webfont.svg" />
+    <None Include="SisTrufas\fonts\sourcesanspro-semibold-webfont.ttf" />
+    <None Include="SisTrufas\fonts\sourcesanspro-semibold-webfont.woff" />
+    <None Include="SisTrufas\fonts\SourceSansPro-Semibold.otf" />
+    <Content Include="SisTrufas\Site1.Master" />
+    <None Include="SisTrufas\img\hamburger_bw.svg" />
+    <None Include="SisTrufas\img\hamburger_dark.svg" />
+    <None Include="SisTrufas\img\hamburger_light.svg" />
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12768</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

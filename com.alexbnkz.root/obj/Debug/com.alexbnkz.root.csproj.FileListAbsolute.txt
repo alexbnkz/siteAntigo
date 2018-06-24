@@ -1,0 +1,14 @@
+C:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.root.dll
+C:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.root.pdb
+C:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.Base.dll
+C:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.Base.pdb
+C:\Android\com.alexbnkz\com.alexbnkz.root\obj\Debug\com.alexbnkz.root.csprojResolveAssemblyReference.cache
+C:\Android\com.alexbnkz\com.alexbnkz.root\obj\Debug\com.alexbnkz.root.dll
+C:\Android\com.alexbnkz\com.alexbnkz.root\obj\Debug\com.alexbnkz.root.pdb
+D:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.root.dll
+D:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.root.pdb
+D:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.Base.dll
+D:\Android\com.alexbnkz\com.alexbnkz.root\bin\com.alexbnkz.Base.pdb
+D:\Android\com.alexbnkz\com.alexbnkz.root\obj\Debug\com.alexbnkz.root.csprojResolveAssemblyReference.cache
+D:\Android\com.alexbnkz\com.alexbnkz.root\obj\Debug\com.alexbnkz.root.dll
+D:\Android\com.alexbnkz\com.alexbnkz.root\obj\Debug\com.alexbnkz.root.pdb
